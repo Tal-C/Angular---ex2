@@ -88,24 +88,24 @@ function accessory(name, type, price, amount, description, image){
 
 var bagList = [];
 bagList.push(new accessory("Black bag", "Big Bag", 20, 25,
-    "A great bag in a good price!", "images/bag.jpg"));
+    "A great bag in a good price!", "images/blackBag.jpg"));
 bagList.push(new accessory("Cream bag", "Cream Bag", 18, 12,
     "The new cream bag is the best", "images/bag.jpg"));
 bagList.push(new accessory("Bourdeaux bag", "Bourdeaux Bag", 25, 15,
-"Very comfotable and good-quality bag!", "images/bag.jpg"));
+"Very comfotable and good-quality bag!", "images/bourdBag.jpg"));
 //========================================================================
 //========================================================================
 var necklaceList = [];
 necklaceList.push(new accessory("Gold Necklace", "Gold Necklace", 55, 3,
     "Our favourite! good-quality and in sale now!", "images/necklace.jpg"));
 necklaceList.push(new accessory("Silver Necklace", "Silver Necklace", 50, 7,
-                                "Great for a present, very good-looking", "images/necklace.jpg"));
+                                "Great for a present, very good-looking", "images/silverNL.jpg"));
 //========================================================================
 //========================================================================
 var sunglassList = [];
 sunglassList.push(new accessory("Sunglass", "Sunglass", 22.7, 10,
                                 "Very good styling", "images/sunglasses.jpg"));
-sunglassList.push(new accessory("Sunglass", "50% whole wheat", 20.6, 4,
-                                "Sunglass ", "images/sunglasses.jpg"));
+sunglassList.push(new accessory("Sunglass", "50% for this type", 20.6, 4,
+                                "Sunglass ", "images/sunglasses2.jpg"));
 
 
